@@ -1,0 +1,99 @@
+/* Impostazioni generali */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #2d3748;
+  background-color: #f7fafc;
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto 2.5rem auto;
+}
+
+/* Intestazione */
+header h1 {
+  font-size: 2.2rem;
+  color: #1a202c;
+}
+
+.ruolo {
+  font-size: 1.15rem;
+  color: #4a5568;
+  margin: 0.3rem 0 0.8rem 0;
+}
+
+.contatti a {
+  color: #3182ce;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contatti a:hover {
+  text-decoration: underline;
+}
+
+/* Sezioni */
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #2b6cb0;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+/* Schede Esperienze */
+.card {
+  background: white;
+  padding: 1.2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  border: 1px solid #edf2f7;
+}
+
+.card h3 {
+  font-size: 1.05rem;
+  color: #2d3748;
+}
+
+.periodo {
+  font-size: 0.85rem;
+  color: #a0aec0;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Competenze */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.skills-list li {
+  background: #edf2f7;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #4a5568;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #a0aec0;
+}
